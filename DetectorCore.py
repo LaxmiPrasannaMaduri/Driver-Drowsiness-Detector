@@ -144,3 +144,4 @@ class DrowsinessDetector:
                 cv2.putText(frame, status, (box[0] + 6, y0 + th + 4),
                             cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), 3)
         return frame
+    
